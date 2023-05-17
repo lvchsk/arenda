@@ -2,6 +2,12 @@ const express = require("express");
 
 const router = express.Router();
 
-// тут прописать router.use('/', название роута который будет зарекваерин выше (маршрутизацию))
+// views
+const mainRouter = require("./views/main.route");
+const categoryRouter = require('./views/category.route')
+router.use("/", mainRouter);
+router.use('/category',categoryRouter)
+
+// api
 
 module.exports = router;

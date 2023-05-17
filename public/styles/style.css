@@ -1,0 +1,10 @@
+.categories {
+    display: flex;
+}
+.card a{
+    display: block;
+}
+.spisok {
+    display:flex;
+    flex-wrap: wrap;
+}

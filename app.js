@@ -1,11 +1,13 @@
 require('@babel/register');
 const express = require("express");
+const path = require("path");
 const renderComponent = require('./middleware/renderComponent');
 
 const app = express();
 const PORT = 3000;
 
 app.use(renderComponent);
+app.use(express.static(path.join(__dirname, "public")));
 const indexRouter = require('./routes/index.routes');
 
 app.use('/', indexRouter);
