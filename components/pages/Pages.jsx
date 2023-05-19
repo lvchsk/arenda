@@ -4,11 +4,11 @@ const PageItem = require('./PageItem');
 function Pages({pages}){
     return (
         <nav aria-label="Page navigation example" style={{marginTop: '70px'}}>
-  <ul class="pagination">
+  <ul className="pagination">
 
 {pages.map(page => <PageItem page={page}/>)}
 
-    {/* <li class="page-point"><a class="page-link" href="up">Next</a></li> */}
+    {/* <li className="page-point"><a className="page-link" href="up">Next</a></li> */}
     
   </ul>
 </nav>

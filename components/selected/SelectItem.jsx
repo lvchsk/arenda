@@ -22,13 +22,13 @@ if(user) {
       <p>{`комментариев : ${housing.Comments.length}`}</p>
 
       <div style={{display: 'flex'}} className='like-box'>
-       <div style={{display: 'flex'}}><p>лайков :</p><p style={{marginLeft: '5px'}}>{`${housing.Likes.length}`}</p></div>
+       <div style={{display: 'flex'}}><p>Лайков:</p><p style={{marginLeft: '5px'}}>{`${housing.Likes.length}`}</p></div>
       {user && !likeOk.length && housing.user_id !== user.id &&
        <button type='button' className='add-like'>i like</button>}
       </div>
 
-      <a href={`/housings/housing/${housing.id}`} class="btn btn-primary">подробнее</a>
-      {!favOk.length  && user ? <button className='add-favorite'>добавить в избранное</button> : false}
+      <a href={`/housings/housing/${housing.id}`} class="btn btn-primary">Подробнее</a>
+      {!favOk.length  && user ? <button className='add-favorite'>Добавить в избранное</button> : false}
       {/* {user && user.id === housing.User.id && <button className='delete-housing-btn' type='button'>delete</button>} */}
   </div>
 </div>

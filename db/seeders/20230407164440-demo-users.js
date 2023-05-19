@@ -5,15 +5,15 @@ module.exports = {
   async up (queryInterface, Sequelize) {
     const objs = [
       {
-        name: 'papa',
+        name: 'Отец Анатолий',
         password: '$2b$10$pafoBu0eAAIO17yLE1wKiePFxX8mkjjdA0c6uJ.X4Rb6aLrg07HYi',
-        email: 'aledab@mail.ru'
+        email: 'papane@mail.ru'
        
       },
       {
-        name: 'mama',
+        name: 'Матушка Анна',
         password: '$2b$10$pafoBu0eAAIO17yLE1wKiePFxX8mkjjdA0c6uJ.X4Rb6aLrg07HYi',
-        email: 'mama@mail.ru'
+        email: 'mamane@mail.ru'
        
       }
     ]

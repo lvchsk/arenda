@@ -2,7 +2,7 @@ const React = require('react');
 
 function AddHousingBtn () {
     return (
-        <button className='add-housing' type='button'>добавить карточку</button>
+        <button className='add-housing btn btn-info' type='button'>Добавить жильё</button>
     )
 }
 
