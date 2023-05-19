@@ -16,7 +16,7 @@ const selectViewRouter = require('./routes/view/select.routes');
 
 //housing
 const app = express();
-const PORT = process.env.PORT ?? 3000;
+const PORT = process.env.PORT || 4000;
 
 serverConfig(app);
 
