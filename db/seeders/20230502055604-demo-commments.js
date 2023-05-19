@@ -7,22 +7,22 @@ const data = [
   {
   user_id: 1,
   housing_id: 1,
-  text: 'fuflo!',
-  user_name: 'papa',
+  text: 'AAAAA!',
+  user_name: 'Отец Анатолий',
   date: new Date().toLocaleDateString()  
   },
   {
     user_id: 2,
     housing_id: 1,
-    text: 'mega fuflo!',
-    user_name: 'mama',
+    text: 'OOOO!',
+    user_name: 'Матушка Анна',
     date: new Date().toLocaleDateString()   
     },
     {
       user_id: 2,
       housing_id: 1,
-      text: 'super mega fuflo!',
-      user_name: 'mama',
+      text: 'ХА-ХА-ХА',
+      user_name: 'Матушка Анна',
       date: new Date().toLocaleDateString()   
       },
 ];
